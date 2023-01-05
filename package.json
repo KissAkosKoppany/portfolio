@@ -1,19 +1,34 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "portfolio",
-  "main": "\u001b[D\u001b[D\u001b[D\u001bscript.\u001b[C\u001bjs0)\u001b[\u001b[\u001b[C\u001b)",
+  "name": "simplefolio",
+  "version": "1.0.1",
+  "private": "true",
+  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KissAkosKoppany/portfolio.git"
+    "url": "git+https://github.com/cobiwave/simplefolio"
   },
-  "author": "",
+  "keywords": [],
+  "author": "Jacobo Martinez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KissAkosKoppany/portfolio/issues"
+    "url": "https://github.com/cobiwave/simplefolio/issues"
   },
-  "homepage": "https://github.com/KissAkosKoppany/portfolio#readme"
+  "homepage": "https://github.com/cobiwave/simplefolio#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2",
+    "prettier": "^2.8.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
+    "popper.js": "^1.16.1",
+    "vanilla-tilt": "^1.8.0"
+  }
 }
