@@ -1,0 +1,38 @@
+.nav-bar-container {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-bar {
+    display: flex;
+    font-size: var(--font-size-300);
+    font-weight: bold;
+    justify-content: center;
+    padding: var(--spacer-200);
+    list-style: none;
+}
+
+.nav-button {
+    color: rgb(var(--clr-white-dark));
+    margin: 0 var(--spacer-500);
+    padding: var(--spacer-100) var(--spacer-500);
+    border-radius: var(--br-radius);
+    background: rgb(var(--clr-bg));
+    border: 3px solid;
+    border-color: rgb(var(--clr-bg-dark)) rgb(var(--clr-white-dark));
+}
+
+
+
+  .nav-button:hover {
+    cursor: pointer;
+    color: rgb(var(--clr-white));
+  }
+
+  .active {
+    color: rgb(var(--clr-red));
+    box-shadow: 0 11px 20px 0 rgba(var(--clr-red), 0.2);
+    rotate: 3deg;
+  }
