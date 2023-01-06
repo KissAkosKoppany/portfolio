@@ -3,10 +3,11 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   border-bottom: 0px;
-  background: $white-color;
+  background: $bg-color;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: $light-grey;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -27,6 +28,14 @@
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
+
+  .svg {
+    width: 7rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+  }
+
 
   .hero-title {
     font-size: 5.6rem;
