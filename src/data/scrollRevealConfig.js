@@ -23,7 +23,7 @@ export const targetElements = [
     },
   },
   {
-    element: ".hero-cta",
+    element: ".ms-nav",
     animation: {
       delay: 1000,
       origin: window.innerWidth > 768 ? "left" : "bottom",

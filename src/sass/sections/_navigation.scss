@@ -22,6 +22,19 @@
         bottom: 75px;
         right: 75px;
         z-index: 20;
+
+        @include respond(tab-land) {
+            scale: 0.8;
+          }
+          @include respond(tab-port) {
+            scale: 0.7;
+          }
+          @include respond(phone) {
+            display: none;
+          }
+          @include respond(phone-xs) {
+            display: none;
+          }
     }
     .ms-nav > .ms-main {
         position: relative;
